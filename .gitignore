@@ -1,0 +1,17 @@
+@"
+# JetBrains IDE files
+.idea/
+*.iml
+*.xml
+inspectionProfiles/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+"@ | Out-File -Encoding utf8 .gitignore
